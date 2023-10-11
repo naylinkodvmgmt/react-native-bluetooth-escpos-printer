@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
- const {BluetoothManager,BluetoothEscposPrinter, BluetoothTscPrinter }= NativeModules;
+ const {BluetoothManager, BluetoothEscposPrinter, BluetoothTscPrinter}= NativeModules;
 
 BluetoothTscPrinter.DIRECTION = {
     FORWARD: 0,
@@ -142,5 +142,4 @@ BluetoothEscposPrinter.ALIGN={
     RIGHT:2
 };
 
- module.exports ={
-    BluetoothManager,BluetoothEscposPrinter, BluetoothTscPrinter };
+ module.exports ={BluetoothManager, BluetoothEscposPrinter, BluetoothTscPrinter};
